@@ -119,3 +119,6 @@ alias kp='~/kport'
 
 # Hides user@hostname
 prompt_context(){}
+
+# mp autocomplete setup
+MP_AC_ZSH_SETUP_PATH=/Users/alexs/Library/Caches/@mparticle/cli/autocomplete/zsh_setup && test -f $MP_AC_ZSH_SETUP_PATH && source $MP_AC_ZSH_SETUP_PATH;
