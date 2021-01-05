@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/alexs/.oh-my-zsh"
@@ -72,6 +72,7 @@ plugins=(
   git
   git-prompt
   npm
+  vault-check-token
   zsh-autosuggestions
   zsh-better-npm-completion
 
@@ -84,6 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export VAULT_ADDR="https://vault.corp.mparticle.com:8200"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
